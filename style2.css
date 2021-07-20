@@ -1,23 +1,24 @@
-/* 0,0,2,0 */
-.outer {
+/* 0,0,1,0 /
+.outer{
+    color: green;
+}
+/ 0,0,2,0 /
+.outer .inner{
     color: orange;
 }
-
-/* 0,0,1,0 */
+/ 0,0,1,0 /
 .inner{
     color: red;
 }
-
-#unique {
+/ 0,1,0,0 /
+#unique{
     color: blueviolet;
 }
-
-/* 0,0,0,2 */
-h1, h2 {
+/ 0,0,0,2 /
+h1 ,h2{
     font-size: large;
 }
-
-/* 0,1,1,1 */
-#unique .inner h2 {
+/ 0,1a,1,1 */
+#unique .inner h2{
     font-size: large;
 }

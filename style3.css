@@ -1,0 +1,16 @@
+#box1{
+    background-color: thistle;
+    padding: 30px;
+    border: 20px solid red;
+    margin: 10px;
+}
+
+#box2{
+    background-color: lime;
+    margin: 40px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}

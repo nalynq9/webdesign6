@@ -1,23 +1,17 @@
-/* 0,0,2,0 */
-.outer {
-    color: orange;
+#box1{
+    background-color: bisque;
+    width: 300px;
+    padding: 30px;
+    border: 10px solid rebeccapurple;
 }
 
-/* 0,0,1,0 */
-.inner{
-    color: red;
-}
+/* width = Total size */
+/* (300px - 60 - 20) */
+/* 220px + 60px + 20px = 300px. */
+#box2{
+    background-color: tomato;
+    width: 300px;
+    padding: 30px;
+    border: 10px solid peachpuff;
 
-#unique {
-    color: blueviolet;
-}
-
-/* 0,0,0,2 */
-h1, h2 {
-    font-size: large;
-}
-
-/* 0,1,1,1 */
-#unique .inner h2 {
-    font-size: large;
 }
